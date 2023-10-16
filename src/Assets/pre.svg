@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <!-- Circle 1 -->
+    <circle cx="30" cy="30" r="15" fill="#d38bfc">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path1" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Square 1 -->
+    <rect x="110" y="15" width="20" height="20" fill="#ffd700">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path2" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Triangle 1 -->
+    <polygon points="160,45 145,65 175,65" fill="#33cc33">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path3" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Circle 2 -->
+    <circle cx="120" cy="120" r="15" fill="#ff6347">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path4" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Square 2 -->
+    <rect x="40" y="150" width="20" height="20" fill="#3399ff">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path5" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Triangle 2 -->
+    <polygon points="80,165 65,185 95,185" fill="#9966cc">
+        <animateMotion repeatCount="indefinite" dur="4s">
+            <mpath href="#path6" />
+        </animateMotion>
+        <animate attributeName="opacity" from="1" to="0.5" dur="2s" begin="0s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Path definitions for animation -->
+    <path id="path1" d="M30,30 L100,100" fill="none" />
+    <path id="path2" d="M110,15 L60,60" fill="none" />
+    <path id="path3" d="M175,65 L145,65" fill="none" />
+    <path id="path4" d="M120,120 L60,60" fill="none" />
+    <path id="path5" d="M40,150 L80,180" fill="none" />
+    <path id="path6" d="M95,185 L135,155" fill="none" />
+</svg>
